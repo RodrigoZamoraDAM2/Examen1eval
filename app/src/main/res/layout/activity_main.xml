@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:layout_marginStart="10dp"
+    android:layout_marginEnd="10dp"
+    android:layout_marginTop="30dp"
+    >
+
+    <TableRow android:background="@color/teal_700">
+
+        <TextView
+            android:paddingEnd="150dp"
+            android:text="@string/producto"
+            android:textColor="@color/white"
+            tools:ignore="RtlSymmetry" />
+        <TextView android:layout_marginEnd="80dp"/>
+
+        <TextView
+            android:paddingEnd="60dp"
+            android:text="@string/subtotal"
+            android:textColor="@color/white"
+            tools:ignore="RtlSymmetry" />
+    </TableRow>
+
+    <TableRow>
+        <TextView android:text="@string/jabon_de_manos_x1"/>
+        <TextView/>
+        <TextView android:text="@string/_2"/>
+    </TableRow>
+
+    <TableRow>
+        <TextView android:text="@string/shampoo_monster_x1"/>
+        <TextView/>
+        <TextView android:text="@string/_10"/>
+    </TableRow>
+
+    <TableRow>
+        <TextView android:text="@string/pastas_duria_x2"/>
+        <TextView/>
+        <TextView android:text="@string/_18"/>
+    </TableRow>
+
+    <TableRow android:background="?attr/actionModeBackground">
+        <TextView android:text="@string/detergente_limpiadin_x1" />
+        <TextView/>
+        <TextView android:text="@string/_13_4" />
+    </TableRow>
+
+    <TableRow>
+        <TextView/>
+        <TextView
+            android:text="@string/subtotal"
+            android:textColor="@color/material_dynamic_primary20" />
+        <TextView android:text="@string/_43_4" />
+    </TableRow>
+    <TableRow>
+        <TextView/>
+        <TextView
+            android:text="@string/coste_envio"
+            android:textColor="@color/material_dynamic_primary20" />
+        <TextView android:text="@string/_10" />
+    </TableRow>
+
+    <TableRow>
+        <TextView/>
+        <TextView
+            android:text="@string/cup_n"
+            android:textColor="@color/material_dynamic_primary20" />
+        <TextView android:text="@string/_5" />
+    </TableRow>
+
+    <TableRow>
+        <TextView/>
+        <TextView
+            android:text="@string/total"
+            android:textColor="@color/material_dynamic_primary20" />
+        <TextView android:text="@string/_48_4" />
+    </TableRow>
+
+
+</TableLayout>
